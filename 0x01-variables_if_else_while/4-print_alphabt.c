@@ -9,15 +9,16 @@ int main/** main - enter program
 
 	while (i < 123)
 	{
-		putchar(i);
-			if (i == 101)
-			{
+		if (i == 101)
+		{
 			continue;
-			}
-			if (i == 113)
-			{
+		}
+		if (i == 113)
+		{
 			continue;
-			}
+		}
+	putchar(i);
+	i++;
 	}
 	putchar('\n');
 	return (0);
