@@ -5,9 +5,9 @@ int main/** main - enter program
 	  * return : 0 always success
 	  */(void)
 {
-	int i = 97;
+	int i;
 
-	while (i < 123)
+	for (i = 97; i < 123; i++)
 	{
 		if (i == 101)
 		{
@@ -17,8 +17,7 @@ int main/** main - enter program
 		{
 			continue;
 		}
-	putchar(i);
-	i++;
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
