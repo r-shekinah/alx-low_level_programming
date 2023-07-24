@@ -13,13 +13,13 @@ void jack_bauer/* prints each minute across 24 hours
 			{
 				for (l = 0; l <= 9; l++)
 				{
-					if (i == 2 && j == 5)
+					if (i == 2 && j == 4)
 					{
 						break;
 					}
 					_putchar(l + 48);
 					_putchar(k + 48);
-					_putchar(':');
+					_putchar(58);
 					_putchar(j + 48);
 					_putchar(i + 48);
 					_putchar('\n');
