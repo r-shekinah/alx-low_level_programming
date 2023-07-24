@@ -7,16 +7,14 @@ int _abs/* prints the absolute value of number
 
 	if (i < 0)
 	{
-		i = (i * -1);
-		_putchar('i');
+		return (i * -1);
 	}
 	if (i > 0)
 	{
-		_putchar('i');
+		return (i);
 	}
 	else
 	{
-		_putchar('0');
+		return ('0');
 	}
-	return (0);
 }
