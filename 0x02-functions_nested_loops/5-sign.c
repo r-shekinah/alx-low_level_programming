@@ -16,7 +16,7 @@ int print_sign/** prints sign of number if not zero, otherwise prints 0
 	}
 	else
 	{
-		_putchar(0);
+		_putchar('0');
 		return (0);
 	}
 }
