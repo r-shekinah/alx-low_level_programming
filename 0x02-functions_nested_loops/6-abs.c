@@ -15,6 +15,6 @@ int _abs/* prints the absolute value of number
 	}
 	else
 	{
-		return ('0');
+		return (0);
 	}
 }
