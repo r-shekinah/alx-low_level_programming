@@ -22,7 +22,7 @@ void jack_bauer/* prints each minute across 24 hours
 					_putchar(':');
 					_putchar(j + 48);
 					_putchar(i + 48);
-					_putchar('\n')
+					_putchar('\n');
 				}
 			}
 		}
