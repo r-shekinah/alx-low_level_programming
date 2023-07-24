@@ -20,7 +20,7 @@ int print_last_digit/* prints last digit of a number
 	}
 	else
 	{
-		_putchar(0);
+		_putchar(0 + 48);
 		return (0);
 	}
 }
