@@ -11,6 +11,7 @@ void print_to_98/*prints natural numbers from n to 98
 			printf("%d", n);
 			if (n == 98)
 			{
+				printf("\n");
 				break;
 			}
 			printf(", ");
@@ -23,6 +24,7 @@ void print_to_98/*prints natural numbers from n to 98
 			printf("%d", n);
 			if (n == 98)
 			{
+				printf("\n");
 				break;
 			}
 			printf(", ");
