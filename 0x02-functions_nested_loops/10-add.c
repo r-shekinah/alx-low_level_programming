@@ -5,9 +5,9 @@ int add/*program that adds two integers
 	*return : 0 success
 	*/(int n, int i)
 {
-	int sum;
+	int add;
 
-	sum = n + i;
+	add = n + i;
 
-	return (sum);
+	return (add);
 }
