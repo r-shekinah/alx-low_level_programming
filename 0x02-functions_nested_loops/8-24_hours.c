@@ -9,7 +9,7 @@ void jack_bauer/* prints each minute across 24 hours
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			if ((i <= 1 && j <= 9) || (i == 2 && j <= 4))
+			if ((i <= 1 && j <= 9) || (i == 2 && j < 4))
 			for (k = 0; k <= 5; k++)
 			{
 				for (l = 0; l <= 9; l++)
