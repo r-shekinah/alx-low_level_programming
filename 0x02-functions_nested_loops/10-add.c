@@ -8,7 +8,6 @@ int add/*program that adds two integers
 	int sum;
 
 	sum = n + i;
-	printf("%d\n", sum);
 
-	return (0);
+	return (sum);
 }
