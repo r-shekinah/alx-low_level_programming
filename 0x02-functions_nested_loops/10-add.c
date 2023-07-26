@@ -9,6 +9,4 @@ int add/*program that adds two integers
 
 	sum = n + i;
 	printf("%d\n", sum);
-
-	return (0);
 }
