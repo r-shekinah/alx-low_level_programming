@@ -11,7 +11,7 @@ void times_table/* prints the 9 times table
 		{
 			int product = a * b;
 
-			if (product != 0)
+			if (a != 0)
 			{
 				_putchar(',');
 				if (product < 10)
