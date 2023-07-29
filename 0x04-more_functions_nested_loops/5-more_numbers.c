@@ -12,7 +12,7 @@ void more_numbers/**
 		{
 			if (j >= 10)
 				_putchar(49);
-			_putchar(i % 10 + 48);
+			_putchar(j % 10 + 48);
 		}
 		_putchar('\n');
 	}
