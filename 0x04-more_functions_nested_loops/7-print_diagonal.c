@@ -4,24 +4,26 @@ void print_diagonal/**
 		    * print_diagonal - draws diagonal line n times when n is positive
 		    */(int n)
 {
-	int i = 1;
-
-	int r = 1;
+	int i, j;
 
 	if (n > 0)
 	{
-		while (i <= n)
+		for (i = 0; i < n; i++)
 		{
-			while (i <= r && n >= r)
+			for (j = 0; j < n; j++)
 			{
-				_putchar(' ');
-				r++;
+				if (j == i)
+				{
+					_putchar(92);
+				}
+				else if (j < i)
+				{
+					_putchar(' ');
+				}
 			}
-			_putchar(92);
 			_putchar('\n');
-			i++;
 		}
 	}
 	else
 		_putchar('\n');
-	}
+}
