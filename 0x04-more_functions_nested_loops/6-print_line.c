@@ -4,7 +4,7 @@ void print_line/**
 		* print_line - prints line of length n when n is positive
 		*/(int n)
 {
-	int i;
+	int i = 0;
 
 	if (n > 0)
 	{
