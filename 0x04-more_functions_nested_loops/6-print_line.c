@@ -13,7 +13,6 @@ void print_line/**
 			_putchar('_');
 			i++;
 		}
-		_putchar('\n');
 	}
 	else
 		_putchar('\n');
