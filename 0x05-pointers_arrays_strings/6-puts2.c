@@ -7,7 +7,7 @@ void puts2/**
 {
 	int i = 1;
 
-	if (i % 2 == 1 && *str != '\0')
+	while (i % 2 == 1 && *str != '\0')
 	{
 		_putchar(*str);
 		str++;
