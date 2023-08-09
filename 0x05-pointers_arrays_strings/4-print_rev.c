@@ -5,11 +5,14 @@ void print_rev/**
 		* @s - string to be printed
 		*/(char *s)
 {
+	int i = 0;
+
 	while (*s != '\0')
+		i++;
 		*s++;
 	*s--;
 
-	while (*s != '\0')
+	for (i = 0; i > 0; i--)
 	{
 		_putchar(*s);
 		*s--;
