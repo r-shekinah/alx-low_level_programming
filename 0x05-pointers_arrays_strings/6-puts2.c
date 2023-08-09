@@ -7,6 +7,7 @@ void puts2/**
 {
 	int i = 0;
 
+	_putchar(*str);
 	while (*str != '\0')
 	{
 		str++;
@@ -14,4 +15,5 @@ void puts2/**
 		if (i % 2 == 0)
 			_putchar(*str);
 	}
+	_putchar('\n');
 }
