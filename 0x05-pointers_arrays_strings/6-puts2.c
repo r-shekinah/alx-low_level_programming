@@ -5,12 +5,16 @@ void puts2/**
 	    * @str - string to be printed
 	    */(char *str)
 {
-	int i = 1;
+	int i = 0;
 
-	while (i % 2 == 1 && *str != '\0')
+	while (*str != '\0')
 	{
-		_putchar(*str);
-		str++;
-		i++;
+			if (i % 2 == 1)
+			{
+				continue;
+				_putchar(*str);
+			}
+			str++;
+
 	}
 }
