@@ -7,6 +7,7 @@ void print_rev/**
 {
 	while (*s != '\0')
 		*s++;
+	*s--;
 
 	while (*s != '\0')
 	{
