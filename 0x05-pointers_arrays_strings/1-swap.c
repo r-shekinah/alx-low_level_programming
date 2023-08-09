@@ -4,6 +4,10 @@ void swap_int/**
 	      * swap_int - swaps the values of two integers
 	      */(int *a, int *b)
 {
-	*a = *b;
-	*b = *a;
+	int *r = *a;
+
+	int *s = *b;
+
+	*a = *s;
+	*b = *r;
 }
