@@ -15,4 +15,4 @@ void puts2/**
 		i++;
 	}
 	_putchar('\n');
-}	
+}
