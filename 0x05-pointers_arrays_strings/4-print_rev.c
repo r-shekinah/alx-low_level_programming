@@ -8,7 +8,10 @@ void print_rev/**
 	while (*s != '\0')
 		*s++;
 
-	_putchar(*s);
-	*s--;
+	while (*s != '\0')
+	{
+		_putchar(*s);
+		*s--;
+	}
 	_putchar('\n');
 }
