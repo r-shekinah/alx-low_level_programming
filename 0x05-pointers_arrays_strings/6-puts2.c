@@ -5,7 +5,7 @@ void puts2/**
 	    * @str - string to be printed
 	    */(char *str)
 {
-	int i;
+	int i = 0;
 
 	while (*str != '\0')
 	{
