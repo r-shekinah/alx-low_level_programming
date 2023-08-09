@@ -11,10 +11,11 @@ void puts2/**
 	{
 			if (i % 2 == 1)
 			{
-				continue;
+				break;
 				_putchar(*str);
 			}
 			str++;
+			i++;
 
 	}
 }
