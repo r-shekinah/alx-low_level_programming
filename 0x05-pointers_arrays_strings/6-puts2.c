@@ -9,13 +9,9 @@ void puts2/**
 
 	while (*str != '\0')
 	{
-			if (i % 2 == 1)
-			{
-				break;
-				_putchar(*str);
-			}
-			str++;
-			i++;
-
+		str++;
+		i++;
+		if (i % 2 == 0)
+			_putchar(*str);
 	}
 }
