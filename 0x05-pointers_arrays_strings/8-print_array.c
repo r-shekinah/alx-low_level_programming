@@ -6,12 +6,12 @@ void print_array/**
 		  * @n - number of elements to be printed
 		  */(int *a, int n)
 {
-	int i = 1;
+	int i = 0;
 
 	while (i < n)
 	{
 		printf("%d", *a);
-		if (i == n)
+		if (i == (n-1))
 			break;
 		printf(", ");
 		a++;
