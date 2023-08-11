@@ -8,24 +8,29 @@ void puts_half/**
 	int n = 0;
 	int m;
 
-	while (*str != '\0')
+	if (*str == '\0')
+		_putchar('\n');
+	else
 	{
-		str++;
-		n++;
-		if (n % 2 == 0)
-			m = n / 2;
-		else
-			m = (n + 1) / 2;
+		while (*str != '\0')
+		{
+			str++;
+			n++;
+			if (n % 2 == 0)
+				m = n / 2;
+			else
+				m = (n + 1) / 2;
+		}
+		while (n != m)
+		{
+			str--;
+			n--;
+		}
+		while (*str != '\0')
+		{
+			_putchar(*str);
+			str++;
+		}
+		_putchar('\n');
 	}
-	while (n != m)
-	{
-		str--;
-		n--;
-	}
-	while (*str != '\0')
-	{
-		_putchar(*str);
-		str++;
-	}
-	_putchar('\n');
 }
