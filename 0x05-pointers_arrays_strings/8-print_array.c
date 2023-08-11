@@ -11,7 +11,7 @@ void print_array/**
 	while (i < n)
 	{
 		printf("%d", *a);
-		if (i = n)
+		if (i == n)
 			printf(", ");
 		a++;
 		i++;
