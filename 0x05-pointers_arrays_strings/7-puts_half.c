@@ -15,7 +15,7 @@ void puts_half/**
 		if (n % 2 == 0)
 			m = n / 2;
 		else
-			m = (n - 1) / 2;
+			m = (n + 1) / 2;
 	}
 	while (n != m)
 	{
