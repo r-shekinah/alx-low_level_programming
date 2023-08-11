@@ -17,7 +17,7 @@ void puts_half/**
 		else
 			m = (n - 1) / 2;
 	}
-	while (*str > m)
+	while (n > m)
 		str--;
 	while (*str != '\0')
 	{
