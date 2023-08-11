@@ -12,7 +12,8 @@ void print_array/**
 	{
 		printf("%d", *a);
 		if (i == n)
-			printf(", ");
+			break;
+		printf(", ");
 		a++;
 		i++;
 	}
