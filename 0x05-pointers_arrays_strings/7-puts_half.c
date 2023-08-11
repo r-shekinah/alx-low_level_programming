@@ -19,6 +19,7 @@ void puts_half/**
 	}
 	while (n > m)
 		str--;
+		n--;
 	while (*str != '\0')
 	{
 		_putchar(*str);
