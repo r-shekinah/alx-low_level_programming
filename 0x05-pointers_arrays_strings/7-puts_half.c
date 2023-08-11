@@ -18,8 +18,10 @@ void puts_half/**
 			m = (n - 1) / 2;
 	}
 	while (n > m)
+	{
 		str--;
 		n--;
+	}
 	while (*str != '\0')
 	{
 		_putchar(*str);
