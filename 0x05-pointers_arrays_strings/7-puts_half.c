@@ -5,7 +5,7 @@ void puts_half/**
 		* @str - string to be printed
 		*/(char *str)
 {
-	int n = 1;
+	int n = 0;
 	int m;
 
 	while (*str != '\0')
@@ -17,7 +17,7 @@ void puts_half/**
 		else
 			m = (n - 1) / 2;
 	}
-	while (n > m)
+	while (n >= m)
 	{
 		str--;
 		n--;
