@@ -17,7 +17,7 @@ void puts_half/**
 		else
 			m = (n - 1) / 2;
 	}
-	while (n >= m)
+	while (n != m)
 	{
 		str--;
 		n--;
