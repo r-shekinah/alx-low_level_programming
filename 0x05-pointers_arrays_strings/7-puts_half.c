@@ -5,7 +5,7 @@ void puts_half/**
 		* @str - string to be printed
 		*/(char *str)
 {
-	int n;
+	int n = 0;
 	int m;
 
 	while (*str != '\0')
