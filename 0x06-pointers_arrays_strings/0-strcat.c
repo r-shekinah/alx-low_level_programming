@@ -5,20 +5,19 @@ char *_strcat/**
 	       * *dest, *src - strings to be concatenated
 	       */(char *dest, char *src)
 {
-	/*int i = 0, j = 0;*/
-	/*int i;*/
+	int i = 0, j = 0;
 
-	while (*dest != '\0')
+	while (dest[i] != '\0')
 	{
-		dest++;
+		i++;
 	}
-	while (*src != '\0')
+	while (src[j] != '\0')
 	{
-		*dest = *src;
-		dest++;
-		src++;
+		dest[i] = src[j];
+		i++;
+		j++;
 	}
-	*dest = '\0';
+	src[j] = '\0';
 
 	return (dest);
 }
