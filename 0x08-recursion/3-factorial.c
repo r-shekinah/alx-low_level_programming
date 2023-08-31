@@ -5,13 +5,13 @@ int factorial/**
 	       * return : factorial of n
 	       */(int n)
 {
-	int res = 0;
+	int res;
 
 	if (n < 0)
 		return (-1);
 	if (n == 0)
 		return (1);
-	res = 5 * factorial(n - 1);
+	res = n * factorial(n - 1);
 
 	return (res);
 }
