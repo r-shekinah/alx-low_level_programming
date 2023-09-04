@@ -4,8 +4,9 @@ void _print_rev_recursion/**
 			   * @s : input
 			   */(char *s)
 {
-	if (*s != '\0')
-		s++;
-	_putchar(*s);
-	_print_rev_recursion(s - 1);
+	if (*s)
+	{
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
+	}
 }
