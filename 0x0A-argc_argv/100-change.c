@@ -15,20 +15,22 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+
 	balance = atoi(argv[1]);
+
 	while (balance > 0)
 	{
 		if (balance >= 25)
 			balance -= 25;
-		if (balance >= 10)
+		else if (balance >= 10)
 			balance -= 10;
-		if (balance >= 5)
+		else if (balance >= 5)
 			balance -= 5;
-		if (balance >= 2)
+		else if (balance >= 2)
 			balance -= 2;
-		if (balance >= 1)
+		else if (balance >= 1)
 			balance -= 1;
-		coins++;
+		coins += 1;
 	}
 	printf("%d\n", coins);
 	return (0);
