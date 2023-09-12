@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		if (balance >= 25)
 			balance -= 25;
 		if (balance >= 10)
-			balance -= 25;
+			balance -= 10;
 		if (balance >= 5)
 			balance -= 5;
 		if (balance >= 2)
