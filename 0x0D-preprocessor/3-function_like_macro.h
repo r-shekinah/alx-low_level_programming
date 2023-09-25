@@ -1,5 +1,4 @@
-#ifndef AB_H
-#define AB_H
-#define ABS(x) result
-unsigned int result = x;
-#endif /*#ifndef AB_H*/
+#ifndef ABS_H
+#define ABS_H
+#define ABS(x) ((x) < 0? -(x) : (x))
+#endif /*#ifndef ABS_H*/
