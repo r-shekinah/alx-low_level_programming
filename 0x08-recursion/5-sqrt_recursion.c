@@ -21,9 +21,9 @@ int helperFunction(int n, int guess)
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 0)
-		return (-1);
 	int guess = 0;
 
+	if (n < 0)
+		return (-1);
 	return (helperFunction(n, guess));
 }
