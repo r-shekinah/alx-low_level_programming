@@ -12,13 +12,13 @@ char *_strdup(char *str)
 	int j = strlen(str);
 	char *dup;
 
-	dup = malloc(j * sizeof(char));
+	/*dup = malloc(j * sizeof(char));*/
 	if (str == NULL)
 		return (NULL);
 
-	/*dup = malloc(j * sizeof(char));
+	dup = malloc(j * sizeof(char));
 	if (dup == NULL)
-		return (NULL);*/
+		return (NULL);
 
 	for (i = 0; i <= j; i++)
 		dup[i] = str[i];
