@@ -1,21 +1,5 @@
 #include "main.h"
 /**
- * _strlen - evaluates length of string
- * @s: said string
- * Return: length of string s
- */
-/*int _strlen(char *s)
-{
-	int a = 0;
-
-	while (*s != '\0')
-	{
-		s++;
-		a++;
-	}
-	return (a);
-}*/
-/**
  * is_palindrome_recursive - checks if string is a palindrome
  * Return: 1 if palindrome, else 0
  * @s: string to be evaluated
