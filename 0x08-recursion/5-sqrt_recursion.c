@@ -17,7 +17,7 @@ int _sqrt_recursive(int n, int guess)
 /**
  * _sqrt_recursion - wrapper function to initiate recursive function
  * Return: square root if natural, else -1
- * @int: radicand
+ * @n: radicand
  */
 int _sqrt_recursion(int n)
 {
