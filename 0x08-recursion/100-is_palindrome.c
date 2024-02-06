@@ -4,7 +4,7 @@
  * @s: said string
  * Return: length of string s
  */
-int _strlen(char *s)
+/*int _strlen(char *s)
 {
 	int a = 0;
 
@@ -14,7 +14,7 @@ int _strlen(char *s)
 		a++;
 	}
 	return (a);
-}
+}*/
 /**
  * is_palindrome_recursive - checks if string is a palindrome
  * Return: 1 if palindrome, else 0
@@ -37,7 +37,7 @@ int is_palindrome_recursive(char *s, int start, int end)
  */
 int is_palindrome(char *s)
 {
-	int length = _strlen(s);
+	int length = strlen(s);
 
 	return (is_palindrome_recursive(s, 0, (length - 1)));
 }
