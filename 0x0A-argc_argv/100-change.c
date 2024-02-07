@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * change - prints minimum number of coins to make change
+ * main - prints minimum number of coins to make change
  * Return: 0 if success, else non-zero
  * @argc: argument count
  * @argv: argument vector
